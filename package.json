@@ -1,0 +1,24 @@
+{
+  "name": "pankajparashar",
+  "version": "1.0.0",
+  "description": "``` $ about   -----   Hi there, I'm Pankaj Parashar, a designer, developer, and writer from Mumbai, India.      I make things for the web and write about them on my blog.    I created @canidev.tools and also maintain @acss-io.",
+  "main": "index.mjs",
+  "scripts": {
+    "build": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankajparashar/pankajparashar.git"
+  },
+  "author": "pankajparashar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pankajparashar/pankajparashar/issues"
+  },
+  "homepage": "https://github.com/pankajparashar/pankajparashar#readme",
+  "dependencies": {
+    "website-scraper": "^5.3.1",
+    "website-scraper-puppeteer": "^1.0.0"
+  }
+}
