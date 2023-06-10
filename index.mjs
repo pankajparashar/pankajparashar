@@ -22,4 +22,5 @@ scrape({
 }).then(() => {
     console.log("done");
     fs.rmdirSync("public/js", { recursive: true, force: true });
+    fs.copyFileSync('inter.css', 'public/css/inter.css');
 });
