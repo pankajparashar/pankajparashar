@@ -10,6 +10,7 @@ scrape({
         new PuppeteerPlugin({
             launchOptions: {
                 headless: true,
+                args: ["--no-sandbox"],
                 defaultViewport: {
                     width: 1920,
                     height: 1080,
